@@ -2084,11 +2084,9 @@
 
     // B2B inquiry form submission (FormSubmit AJAX → 별칭(alias) 엔드포인트)
     var INQUIRY_ENDPOINT = 'https://formsubmit.co/ajax/0f86f8f1036985b96893e996d10a7bf0';
-    var INQUIRY_MAIL = 'info@hgbiofarm.co.kr';
     var MSG_SENDING = 'Sending...';
-    var MSG_ERROR = 'Your message could not be sent. Please try again in a moment, or email us directly at ' +
-      '<a href="mailto:info@hgbiofarm.co.kr">' + INQUIRY_MAIL + '</a>. ' +
-      '(Tel +82 33 818 1108)';
+    var MSG_ERROR = 'Your message could not be sent. Please submit the inquiry form again in a moment ' +
+      'and our team will follow up with you. (Tel +82 33 818 1108)';
 
     function setFormStatus(message) {
       var box = document.getElementById('formStatus');

@@ -1948,11 +1948,9 @@
 
     // B2B 문의 폼 전송 (FormSubmit AJAX → 별칭(alias) 엔드포인트)
     var INQUIRY_ENDPOINT = 'https://formsubmit.co/ajax/0f86f8f1036985b96893e996d10a7bf0';
-    var INQUIRY_MAIL = 'info@hgbiofarm.co.kr';
     var MSG_SENDING = '전송 중...';
-    var MSG_ERROR = '문의 전송이 완료되지 않았습니다. 잠시 후 다시 시도하시거나 ' +
-      '<a href="mailto:info@hgbiofarm.co.kr">' + INQUIRY_MAIL + '</a> 로 직접 보내 주세요. ' +
-      '(대표전화 033-818-1108)';
+    var MSG_ERROR = '문의 전송이 완료되지 않았습니다. 잠시 후 문의 폼으로 다시 접수해 주시면 ' +
+      '담당자가 확인합니다. (대표전화 033-818-1108)';
 
     function setFormStatus(message) {
       var box = document.getElementById('formStatus');

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hgbiofarm.co.kr/sitemap.xml
